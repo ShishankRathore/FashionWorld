@@ -1,0 +1,117 @@
+body {
+  background-color: white; 
+  color: black;
+}
+
+body.dark-theme {
+  background-color: #121212; /* Dark theme background */
+  color: white; /* Dark theme text color */
+}
+
+.bg-image {
+  background-image: url('https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+}
+
+.card{
+  height: 500px;
+}
+.postImage{
+  height: 350px;
+}
+.productDescription{
+  height: 100px;
+  overflow: auto;
+  margin-bottom: auto;
+}
+
+
+/* @keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+} */
+
+
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-container fieldset {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.sign-up-container h1:hover {
+  color: chartreuse;
+}
+
+.sign-up-container label:hover {
+  color: #001aff;
+}
+
+.sign-up-container span {
+  margin-left: 12em;
+  margin-top: 50em;
+}
+
+.sign-up-container button {
+  border: 2px solid blue;
+  border-radius: 20%;
+}
+
+.sign-up-container button:hover {
+  color: crimson;
+  background-color: darkgreen;
+  transform: scale(1.2);
+}
+
+.sign-up-container input:hover {
+  background-color: #ddd;
+  border: 2px solid black;
+}
+
+.sign-up-container input:focus {
+  background-color: #ccc;
+  border: 1px solid #666;
+}
+
+.sign-up-container fieldset:hover {
+  border: 3px solid black;
+  box-shadow: 0 0 50px gold;
+  background-color: rgb(233, 147, 239);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(255, 187, 0, 0.2);
+}
+.btn-sm:hover {
+  background-color: aqua;
+}
+
+.homeBtn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.homeBtn:hover {
+  background-color: #dc3545; 
+  color: white;
+}
